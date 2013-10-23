@@ -1,0 +1,72 @@
+
+#divParentContainer {
+      position: absolute;
+      /*width: 100px;
+      height: 20px;*/
+      line-height: 20px;
+      padding: 10px;
+      /*font-size: 14px;
+	  font-weight: bold;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background: rgba(130, 130, 130, 0.6);*/
+      border: 4px solid rgba(100, 100, 100, 0.6);
+      border-radius: 5px;
+      /*text-shadow: rgba(100, 100, 100, 0.0980392) 2px 2px 2px;*/
+      box-shadow: rgba(60, 60, 60, 0.0980392) 2px 2px 3px 0px;
+}
+/*
+#divTooltip, span.popup:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 10px;
+      border-style: solid;
+      border-color: #FFFFFF transparent transparent transparent;
+      top: 44px;
+      left: 50px;
+}*/
+#spanTextContainer {
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+#abbrevList {
+	text-align:left;
+	padding-left: 20px;
+}
+.modalWindow
+{
+  position:fixed;
+  top:150px;
+  margin:0;
+  border:1px solid #dddeee;
+  /*width:180px;*/
+  /*height:30px;*/
+  text-align:center;
+  word-spacing:2px;
+  line-height:15px;
+  /*font-weight:bold;*/
+  font-size:13px;
+  color:#000;
+  padding:10px;
+  z-index:102;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(2%, #eeeeee), color-stop(100%, #dddddd));
+  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+  -webkit-border-radius:8px;
+  -webkit-box-shadow:-1px 2px 12px rgba(0, 0, 0, 0.91);
+  -webkit-transition: opacity 0.3s ease-in;
+}
+.remove-list-styling {
+	text-align:left;
+	list-style-type: none;
+	list-style-image: none;
+}
+li.remove-list-styling {
+	text-align:left;
+	padding-left: 2em; text-indent: -2em;
+}
